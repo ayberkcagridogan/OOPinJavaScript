@@ -9,6 +9,7 @@ function StopWatch(){
             throw new Error('Duration can not be set');
         }
     })
+
     let status = false;
    
     this.start = function(){
@@ -22,6 +23,7 @@ function StopWatch(){
     this.stop = function(){
         if(!status)
             throw new Error('StopWatch already don not work');
+            
         status = false;
         duration = performance.now() - duration;
     }

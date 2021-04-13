@@ -36,4 +36,7 @@ circle.showLocation();
 
 console.log(circle.defaultLocation);
 
+console.log('This error for example');
 circle.defaultLocation = 1;
+
+

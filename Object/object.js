@@ -17,13 +17,11 @@ const circle = createCircle(1);
 circle.draw();
 
 //Constructor Method 
-class Circle {
-    constructor(radius) {
-        this.radius = radius;
-        this.draw = function () {
-            console.log('draw with Constructor method');
-        };
-    }
+function Circle (radius){
+    this.radius = radius;
+    this.draw = function () {
+    console.log('draw with Constructor method');
+  };
 }
 
 const circleConstructor = new Circle(1);
