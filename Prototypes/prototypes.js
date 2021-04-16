@@ -14,3 +14,5 @@ Circle.prototype.draw = function(){
 Circle.prototype.toString = function(){
     console.log('Circle with radius' +this.radius);  
 }
+
+
