@@ -34,3 +34,4 @@ class Stack{
 
 const cs = new Stack('asdf');
 
+asdf
